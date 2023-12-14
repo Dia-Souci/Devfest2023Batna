@@ -5,7 +5,7 @@ const FAQSection = () => {
     <section className="flex flex-row justify-center items-center flex-wrap max-w-fit sm:px-0 px-6 sm:space-x-20 lg:space-y-0 space-y-10">
       {/* FAQ logo at the left */}
       <div className="flex items-center justify-center">
-        <img src="/faq-logo.svg" alt="faq logo" className="max-w-[400px]"></img>
+        <img src="/faq-logo.svg" alt="faq logo" className="max-w-[300px]"></img>
       </div>
 
       {/* Content at the right */}
