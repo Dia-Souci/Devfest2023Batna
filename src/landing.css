@@ -46,7 +46,9 @@
   animation: title 6s infinite linear;
   animation-timing-function: ease-in-out;
 }
-
+.cntttl{
+  color: #444;
+}
 
 @keyframes puzzle1 {
   0% {
@@ -176,11 +178,13 @@
   font-size: 18px;
   font-weight: 500;
   font-family: 'Product Sans Medium';
+  color: #444;
 }
 
 .boxClass .remaining .number {
   font-size: 33px;
   font-weight: 400;
+  color: #444;
 }
 
 .register-button {
@@ -387,10 +391,12 @@
   justify-content: space-evenly;
   gap: 0;
   font-size: 14px;
+  color: #444;
 }
 
 .boxClass .remaining .number {
   font-size: 24px;
+  color: #444;
 }
 
 .register-button .containerClass {

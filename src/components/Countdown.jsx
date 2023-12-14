@@ -41,28 +41,28 @@ const Countdown = () => {
           <img src={daysBox} alt="" />
           <div className='remaining'>
             <div className='number'>{timeRemaining.days}</div>
-            <div>Days</div>
+            <div className='cntttl'>Days</div>
           </div>
         </div>
         <div className='boxClass'>
           <img src={hoursBox} alt="" />
           <div className='remaining'>
             <div className='number'>{timeRemaining.hours}</div>
-            <div>Hours</div>
+            <div className='cntttl'>Hours</div>
           </div>
         </div>
         <div className='boxClass'>
           <img src={minutesBox} alt="" />
           <div className='remaining'>
             <div className='number'>{timeRemaining.minutes}</div>
-            <div>Min</div>
+            <div className='cntttl'>Min</div>
           </div>
         </div>
         <div className='boxClass'>
           <img src={secondsBox} alt="" />
           <div className='remaining'>
             <div className='number'>{timeRemaining.seconds}</div>
-            <div>Sec</div>
+            <div className='cntttl'>Sec</div>
           </div>
         </div>
       </div>
