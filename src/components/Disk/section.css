@@ -227,7 +227,11 @@ body .Container-home{
   .image-container-section img{
     width: 45%;
   }
-  
+  #scnd{
+    width: 80%;
+    transform: translate(-30%, 0);
+    margin: 0 0 10px;
+  }
   .devfestTarget{
     width: 40%;
   }

@@ -61,9 +61,6 @@ function Swipper2() {
               alt="img"
               style={{
                 width: "100%",
-                height: "auto",
-                maxWidth: "426px",
-                maxHeight: "431px",
                 objectFit: "cover",
               }}
             />
@@ -142,9 +139,6 @@ function Swipper2() {
               alt="img"
               style={{
                 width: "100%",
-                height: "auto",
-                maxWidth: "426px",
-                maxHeight: "431px",
                 objectFit: "cover",
               }}
             />
@@ -223,9 +217,6 @@ function Swipper2() {
               alt="img"
               style={{
                 width: "100%",
-                height: "auto",
-                maxWidth: "426px",
-                maxHeight: "431px",
                 objectFit: "cover",
               }}
             />

@@ -23,10 +23,10 @@ function Section()
         <div className='text-container-section' >
           <div className='section-title'>
             <div className="whatis">
-              <h1>What is</h1>
-              <span className="devfestTarget" >
-                <img src={devfQ} alt="" />
-              </span>
+            <h1>What is</h1>
+            <span className="devfestTarget" >
+              <img src={devfQ} alt="" />
+            </span>
             </div>
             
           </div>
@@ -41,7 +41,7 @@ function Section()
       <div className='Container-home'>
         <div className='image-container-section'>
           <div className='image-container first-image '>
-            <img className="image-original scnd" src={image5}/>
+            <img className="image-original scnd" id="scnd" src={image5}/>
             
           </div>
         </div>

@@ -43,13 +43,13 @@
 
 .swiper-button-next{
   background-image: url('../images/right-arrow.svg');
-  right: 0;
+  right: -15px;
   margin-right: 40px;
 }
 
 .swiper-button-prev {
   background-image: url('../images/left-arrow.svg');
-  left: 0;
+  left: -15px;
   margin-left: 40px;
 
 }
