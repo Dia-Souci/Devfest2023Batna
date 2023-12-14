@@ -1,6 +1,6 @@
 import './Footer.css'
-import Logo from "../../images/GDG logo 1.png"
-import social from "../../images/fb ig twitter.png"
+import Logo from "../images/GDG logo 1.png"
+import social from "../images/fb ig twitter.png"
 
 function Footer() {
   return (

@@ -2,7 +2,7 @@ import './App.css'
 import './landing.css'
 import FAQSection from './components/FAQSection'
 import Noise from './images/Rectangle 1.png'
-import Footer from './Components/Footer/Footer.jsx';
+import Footer from './components/Footer.jsx';
 import Header from './components/Header';
 import Countdown from './components/Countdown';
 import Register from './components/Register';
