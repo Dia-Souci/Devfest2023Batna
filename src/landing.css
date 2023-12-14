@@ -373,6 +373,7 @@
 }
 
 .boxClass {
+  color: #444;
   overflow: hidden;
   height: 55px;
   width: 71px;
