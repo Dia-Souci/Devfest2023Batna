@@ -94,7 +94,7 @@ function Swipper2() {
                   transform: "translate(-50%, -50%)",
                   textAlign: "center",
                   zIndex: 1, // Set a higher zIndex for the text
-                  fontSize: "1.6rem",
+                  fontSize: "2vw",
                 }}>
                 Flutter GDE,From Algeria
               </p>
@@ -175,7 +175,7 @@ function Swipper2() {
                   transform: "translate(-50%, -50%)",
                   textAlign: "center",
                   zIndex: 1, // Set a higher zIndex for the text
-                  fontSize: "1.6rem",
+                  fontSize: "2vw",
                 }}>
                 Flutter GDE,From Algeria
               </p>

@@ -1,10 +1,10 @@
 import { Minus, Plus } from "lucide-react";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 
 const Collapse = ({ isOpen, onToggle, title, content }) => {
   return (
     <div
-      className={`collapse border rounded-none max-w-[450px] ${
+      className={`collapse border rounded-none max-w-[300px] ${
         isOpen ? "open" : ""
       }`}
     >
@@ -23,7 +23,7 @@ const Collapse = ({ isOpen, onToggle, title, content }) => {
         </span>
       </div>
 
-      <div className="collapse-content duration-500 ease-in-out w-[400px]">
+      <div className="collapse-content duration-500 ease-in-out w-[250px]">
         {isOpen && <p className="font-light">{content}</p>}
       </div>
     </div>

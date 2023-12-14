@@ -70,4 +70,10 @@
     
       margin-left: 200px;
     }
+    @media (max-width:450px) {
+      .nav-register-button .nav-container div {
+        font-size: 8px;
+      }
+      
+    }
   }

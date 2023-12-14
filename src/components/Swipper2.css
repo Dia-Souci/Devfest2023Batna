@@ -122,10 +122,10 @@
 }
 
 @media screen and (max-width:600px) {
-
   #shape-container-second{
-    width: 20%;
+    width: 30%;
   }
+  
   .speaker-name {
     font-size: 12px;
     line-height: 18px /* 28px */;

@@ -141,7 +141,7 @@ body .Container-home{
 
 }
 
-@media only screen and (max-width: 650px) and (min-width:450px){
+@media only screen and (max-width: 650px) and (min-width:500px){
   .image-container-section{
     width: 60%;
     height: 60%;
@@ -161,7 +161,7 @@ body .Container-home{
   }
   .first-image{
     height: 300Px;
-    width:400px;
+    width:300px;
   }
   .image-container-section img{
     width: 60%;
@@ -203,26 +203,25 @@ body .Container-home{
   }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 500px){
   .image-container-section{
     width: 45%;
     height: 45%;
   }
   .image-container .image-top{
     position: relative;
-    top: -100px;
-    left: -80px;
-    width: 20%;
+    top: -50px;
+    left: -30px;
+    width: 15%;
   }
   .image-container .image-bottom{
     position: relative;
-    bottom: -60px;
-    left: -100px;
-    width: 20%;
-
+    bottom: -10px;
+    left: -50px;
+    width: 15%;
   }
   .first-image{
-    height: 200Px;
+    height: 150Px;
     width:200px;
   }
   .image-container-section img{
@@ -233,7 +232,7 @@ body .Container-home{
     width: 40%;
   }
   .devfestTarget img{
-    width: 40%;
+    width: 100%;
   }
   
   body .Container-home{
@@ -259,6 +258,7 @@ body .Container-home{
     line-height: 22px;
     letter-spacing: 0.2%;
     margin-top: 20px;
+    text-align: center;
   }
 
 }
