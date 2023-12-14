@@ -1,7 +1,7 @@
 .footerClass{
     display: flex;
     padding-bottom: 30px;
-    background-image: url('../../images/Pattern.png');
+    background-image: url('../images/Pattern.png');
     width: 100%;
     background-size:100% ;
     background-repeat: no-repeat;

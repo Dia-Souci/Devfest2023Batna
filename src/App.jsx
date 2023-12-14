@@ -2,7 +2,7 @@ import './App.css'
 import './landing.css'
 import FAQSection from './components/FAQSection'
 import Noise from './images/Rectangle 1.png'
-import Footer from './Components/Footer/Footer';
+import Footer from './Components/Footer/Footer.jsx';
 import Header from './components/Header';
 import Countdown from './components/Countdown';
 import Register from './components/Register';
@@ -23,7 +23,7 @@ function App() {
       <Header />
       <Countdown />
       <Register />
-      {/*   improve section dimension less than 650px //TO DO */}
+      {/*   improve section dimension less than 500px //TO DO */}
       <Section />
       <Swipper1/>
       <div className="div-marg"></div>
