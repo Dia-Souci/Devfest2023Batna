@@ -1,0 +1,93 @@
+
+
+.swiper {
+  width: 80%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.shape-image1 {
+  width: 95.09px;
+  height: 118.49px;
+}
+
+.shape-image2 {
+  width: 130px;
+  height: 134.76px;
+}
+
+.shape-image3 {
+  width: 136px;
+  height: 140px;
+}
+
+.shape-image4 {
+  width: 113px;
+  height: 150px;
+}
+
+.shape-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.shape-container2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.shape-container3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.shape-container4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+
+@media (max-width: 1133px) {
+  .shape-image1 {
+    width: 47.55px;
+    height: 59.25px;
+  }
+
+  .shape-image2 {
+    width: 65px;
+    height: 67.38px;
+  }
+
+  .shape-image3 {
+    width: 68px;
+    height: 70px;
+  }
+
+  .shape-image4 {
+    width: 56.5px;
+    height: 75px;
+  }
+}

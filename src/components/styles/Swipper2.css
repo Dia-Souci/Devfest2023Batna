@@ -1,0 +1,136 @@
+.swiper {
+  width: 80%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff;*/
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem /* 24px */;
+  margin-bottom: 1.5rem /* 24px */;
+}
+.swiper-button-next,.swiper-button-prev {
+  background-image: url(./right-arrow.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 101px;
+  height: 39.29px;
+  cursor: pointer; 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.swiper-button-next{
+  background-image: url(./right-arrow.svg);
+  right: 0;
+  margin-right: 40px;
+}
+
+.swiper-button-prev {
+  background-image: url(./left-arrow.svg);
+  left: 0;
+  margin-left: 40px;
+
+}
+
+.swiper-button-disabled {
+  display: none;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 0 24px 50px;
+}
+
+.speaker-name {
+  font-size: 2.5rem /* 20px */;
+  line-height: 1.75rem /* 28px */;
+  font-weight: 700;
+  margin: 0.5rem 0 0.9rem 0.5rem;
+}
+
+@media (max-width: 1485px) {
+  .swiper-button-next,.swiper-button-prev {
+   display: none;
+  }
+}
+
+
+@media screen and (max-width:1300px) and (min-width:1000px) {
+
+  #shape-container-second{
+    width: 70%;
+  }
+  .speaker-name {
+    font-size: 20px;
+    line-height: 25px /* 28px */;
+    font-weight: 700;
+    margin: 0.5rem 0 0.9rem 0.5rem;
+  }
+  
+}
+
+@media screen and (max-width:1000px) and (min-width:800px) {
+
+  #shape-container-second{
+    width: 40%;
+  }
+  .speaker-name {
+    font-size: 16px;
+    line-height: 22px /* 28px */;
+    font-weight: 700;
+    margin: 0.5rem 0 0.9rem 0.5rem;
+  }
+  
+}
+
+@media screen and (max-width:800px) and (min-width:600px) {
+
+  #shape-container-second{
+    width: 30%;
+  }
+  
+  .speaker-name {
+    font-size: 14px;
+    line-height: 20px /* 28px */;
+    font-weight: 700;
+    margin: 0.5rem 0 0.9rem 0.5rem;
+  }
+}
+
+@media screen and (max-width:600px) {
+
+  #shape-container-second{
+    width: 20%;
+  }
+  .speaker-name {
+    font-size: 12px;
+    line-height: 18px /* 28px */;
+    font-weight: 700;
+    margin: 0.5rem 0 0.9rem 0.5rem;
+  }
+  
+}

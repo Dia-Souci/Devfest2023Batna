@@ -1,0 +1,426 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');           
+
+
+.devfest-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-inline: 5vw;
+}
+
+.devfest-title .devfest-anim {
+  margin: 0 -1000px;
+  position: relative;
+  left: 40px;
+  margin-bottom: 72px;
+
+  display: flex;
+}
+
+.devfest-anim .puzzle1 {
+  margin-top: -250px;
+  margin-right: -14px;
+
+  animation: puzzle1 6s infinite linear;
+  animation-timing-function: ease-in-out;
+}
+
+.devfest-anim .puzzle2 {
+  margin-bottom: -200px;
+  margin-left: -14px;
+  
+  animation: puzzle2 6s infinite linear;
+  animation-timing-function: ease-in-out;
+}
+
+
+.devfest-anim .title-container {
+  overflow: hidden;
+  width: 511.662px;
+  height: 211.147px;
+  animation: title-container 6s infinite linear;
+  animation-timing-function: ease-in-out;
+}
+
+.devfest-anim .title {
+  animation: title 6s infinite linear;
+  animation-timing-function: ease-in-out;
+}
+
+
+@keyframes puzzle1 {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(280px);
+  }
+  55% {
+    transform: translateX(280px);
+  }
+  80% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes puzzle2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  33% {
+    transform: translate(-290px, 0);
+  }
+  55% {
+    transform: translate(-290px, -210px);
+  }
+  80% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes title-container {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-290px);
+  }
+  55% {
+    transform: translateX(-290px);
+  }
+  80% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes title {
+  0% {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+  33% {
+    transform: translateX(560px);
+    opacity: 0%;
+  }
+  55% {
+    transform: translateX(560px);
+    opacity: 0%;
+  }
+  80% {
+    transform: translateX(0px);
+    opacity: 100%;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 100%;
+  }
+}
+
+
+
+.date-location {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  margin-top: 18px;
+
+  font-size: 24px;
+  color: white;
+}
+
+.date-location .date, .date-location .location {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.countdownClass {
+  display: flex;
+  gap: 26px;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: -28px;
+}
+
+.countdownClass .arrow {
+  margin-inline: -22px;
+  margin-bottom: 18px;
+  margin-top: 38px;
+
+  animation: shake 3s linear infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.boxClass {
+  position: relative;
+  text-align: center;
+}
+
+.boxClass .remaining {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Product Sans Medium';
+}
+
+.boxClass .remaining .number {
+  font-size: 33px;
+  font-weight: 400;
+}
+
+.register-button {
+  margin-top: 118px;
+}
+
+.register-button img:hover {
+  background: rgba(208, 208, 208, 0.24);
+  cursor: pointer;
+}
+
+.register-button .containerClass {
+  position: relative;
+  text-align: center;
+}
+
+.register-button .containerClass div {
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  margin-top: -3px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: -1;
+}
+
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-30deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+.mob {display: none;}
+.desk {display: initial;}
+
+
+
+@media (max-width: 1120px) {
+  .mob {display: initial;}
+  .desk {display: none;}
+
+  
+.devfest-title {
+  margin-inline: 5vw;
+}
+
+.devfest-title .devfest-anim {
+  margin: 0 -1000px;
+  margin-bottom: 72px;
+
+  left: 16px;
+}
+
+.devfest-anim .puzzle1 {
+  margin-top: -45px;
+  margin-right: -7px;
+
+  width: 57px;
+  height: 59px;
+}
+
+.devfest-anim .puzzle2 {
+  position: relative;
+  top: 65px;
+  margin-left: -6px;
+
+  width: 50px;
+  height: 52px;
+}
+
+.devfest-anim .title-container, .devfest-anim .title {
+  width: 224px;
+  height: 93px;
+}
+
+
+@keyframes puzzle1 {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(140px);
+  }
+  55% {
+    transform: translateX(140px);
+  }
+  80% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes puzzle2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  33% {
+    transform: translate(-120px, 0);
+  }
+  55% {
+    transform: translate(-120px, -100px);
+  }
+  80% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes title-container {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-120px);
+  }
+  55% {
+    transform: translateX(-120px);
+  }
+  80% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes title {
+  0% {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+  33% {
+    transform: translateX(240px);
+    opacity: 0%;
+  }
+  55% {
+    transform: translateX(240px);
+    opacity: 0%;
+  }
+  80% {
+    transform: translateX(0px);
+    opacity: 100%;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 100%;
+  }
+}
+
+  .date-location img {
+    height: 19px;
+    width: auto;
+  }
+
+.date-location {
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-inline: 10px;
+  font-size: 12px;
+}
+
+.date-location .date, .date-location .location {
+  gap: 4px;
+}
+
+.countdownClass {
+  margin-top: 25px;
+  margin-inline: 10px;
+  justify-content: space-evenly;
+  gap: 10px;
+
+}
+
+.boxClass {
+  overflow: hidden;
+  height: 55px;
+  width: 71px;
+}
+
+.boxClass img {
+  width: 71px;
+}
+
+.boxClass .remaining {
+  justify-content: space-evenly;
+  gap: 0;
+  font-size: 14px;
+}
+
+.boxClass .remaining .number {
+  font-size: 24px;
+}
+
+.register-button .containerClass {
+  width: 231px;
+  height: 47px;
+}
+
+.register-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.register-button {
+  margin-top: 55px;
+}
+
+.register-button .containerClass div {
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+}
+
+@media (max-width: 350px) {
+
+  .date-location .date, .date-location .location {
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+  }
+
+}

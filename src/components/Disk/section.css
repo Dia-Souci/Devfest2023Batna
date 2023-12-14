@@ -1,0 +1,265 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+.rotating {
+  animation: rotate-animation 10s infinite linear;
+  }
+  @keyframes rotate-animation {
+  0% {
+      transform: rotate(0deg);
+  }
+  
+  50% {
+      transform: rotate(180deg);
+  }
+  
+  100% {
+      transform: rotate(360deg);
+  }
+  }
+
+.second-section{
+  margin: 100px 50px 0 50px;
+  padding: 40px;
+}
+
+body .Container-home{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+.image-container{
+  margin-left: 60px;
+  margin-right: 60px;
+  position: relative;
+  flex: 1;
+}
+.first-image{
+  height: 460Px;
+  width:400px;
+}
+.image-original{
+  z-index: 30;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.image-container .image-background{
+  position: absolute;
+  top: 20px;
+  left: 0;
+  z-index: -1;
+}
+.image-container .image-top{
+  position: relative;
+  top: 0;
+  left: -60px;
+}
+.image-container .image-bottom{
+  position: relative;
+  bottom: -340px;
+  left: -130px;
+}
+.text-container-section{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.section-title{
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.section-title h1{
+  font-weight: 400;
+  font-size: 53px;
+  letter-spacing: 0.2%;
+  padding-right: 10px;
+}
+
+.description-container-section{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 43px;
+  letter-spacing: 0.2%;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.section-title h1 span{
+  color: #007A3D;
+}
+.whatis{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*
+.scnd{
+  width: 400px;
+}
+*/
+
+
+
+
+
+/* media query for smaller screens */
+@media only screen and (max-width: 1150px) {
+  body .Container-home{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 100Px;
+  }
+  .margin-top{
+    margin-top:60px ;
+    }
+  .image-container,.section-title{
+    display: flex;
+      text-align: center;
+      align-items: center;
+      margin-left: auto;
+  margin-right: auto;
+  }
+  .image-container .image-top{
+    position: relative;
+    top: -140px;
+    left: -133px;
+  }
+  .image-container .image-bottom{
+    position: relative;
+    bottom: -160px;
+    left: -186px;
+  }
+ 
+  
+
+}
+
+@media only screen and (max-width: 650px) and (min-width:450px){
+  .image-container-section{
+    width: 60%;
+    height: 60%;
+  }
+  .image-container .image-top{
+    position: relative;
+    top: -200px;
+    left: -133px;
+    width: 20%;
+  }
+  .image-container .image-bottom{
+    position: relative;
+    bottom: -60px;
+    left: -200px;
+    width: 20%;
+
+  }
+  .first-image{
+    height: 300Px;
+    width:400px;
+  }
+  .image-container-section img{
+    width: 60%;
+  }
+  .imagess{
+    max-width: 70vw;
+  }
+  .devfestTarget{
+    width: 40%;
+  }
+  .devfestTarget img{
+    width: 100%;
+  }
+  
+  body .Container-home{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 20px;
+    margin-bottom: 100Px;
+  }
+  
+  .section-title h1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.2%;
+    padding-right: 10px;
+  }
+  
+  .description-container-section{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2%;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .image-container-section{
+    width: 45%;
+    height: 45%;
+  }
+  .image-container .image-top{
+    position: relative;
+    top: -100px;
+    left: -80px;
+    width: 20%;
+  }
+  .image-container .image-bottom{
+    position: relative;
+    bottom: -60px;
+    left: -100px;
+    width: 20%;
+
+  }
+  .first-image{
+    height: 200Px;
+    width:200px;
+  }
+  .image-container-section img{
+    width: 45%;
+  }
+  
+  .devfestTarget{
+    width: 40%;
+  }
+  .devfestTarget img{
+    width: 40%;
+  }
+  
+  body .Container-home{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 20px;
+    margin-bottom: 100Px;
+  }
+  .section-title h1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2%;
+    padding-right: 10px;
+  }
+
+  .description-container-section{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.2%;
+    margin-top: 20px;
+  }
+
+}
+

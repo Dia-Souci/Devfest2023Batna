@@ -1,0 +1,153 @@
+.footerClass{
+    display: flex;
+    padding-bottom: 30px;
+    background-image: url('../../images/Pattern.png');
+    width: 100%;
+    background-size:100% ;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.gdgLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 25px 0 0;
+    width: 20%;;
+}
+.gdgLogo img{
+    width: 90%;
+}
+.infosection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.finUS{
+    color: #007A3D;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.002em;
+    text-align: center;
+
+}
+
+.imgcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgcont img{
+    width: 50%;
+}
+.Rights{
+    color:#fff;
+    font-family: Product Sans;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.002em;
+    text-align: center;
+
+}
+.placeHolder{
+    width: 20%;
+}
+
+@media only screen and (max-width: 1100px ) and (min-width : 800px) {
+    .gdgLogo img{
+        width: 70%;
+    }
+    .finUS{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.002em;
+        text-align: center;
+    
+    }
+    .imgcont img{
+        width: 30%;
+    }
+
+    .Rights{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.002em;
+        text-align: center;
+    
+    }
+}
+
+@media only screen and (max-width: 800px ) and (min-width : 400px){
+    .footerClass{
+        flex-direction: column;
+        background-repeat: repeat;
+    }
+    .gdgLogo{
+        margin: 0 ;
+        width: 20%;;
+    }
+    .gdgLogo img{
+        width: 70%;
+    }
+    .finUS{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.002em;
+        text-align: center;
+    
+    }
+    .imgcont img{
+        width: 30%;
+    }
+
+    .Rights{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.002em;
+        text-align: center;
+    
+    }
+}
+
+@media only screen and (max-width: 400px ) {
+    .footerClass{
+        flex-direction: column;
+        background-repeat: repeat;
+    }
+    .gdgLogo{
+        margin: 0 ;
+        width: 20%;;
+    }
+    .gdgLogo img{
+        width: 70%;
+    }
+    .finUS{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.002em;
+        text-align: center;
+    
+    }
+    .imgcont img{
+        width: 30%;
+    }
+
+    .Rights{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.002em;
+        text-align: center;
+    
+    }
+}
