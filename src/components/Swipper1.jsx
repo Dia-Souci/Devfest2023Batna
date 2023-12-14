@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-import "./Styles/Swipper1.css";
+import "./Swipper1.css";
 
 import { Autoplay } from "swiper/modules";
 
